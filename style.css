@@ -1,0 +1,98 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: https://valeriebaron.website
+Author: ValDeMand'
+Author URI: https://valeriebaron.website
+Description: Responsive bootstrap theme design for e-commerce website
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: valeriebaron
+*/
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+
+}
+.navbar{
+	margin-top: 32px;
+}
+
+.jumbotron{
+
+	height: 400px;
+	width: 100% !important;
+	padding: 50px 0px;
+	margin-left: 0;
+	text-align: center;
+	border-bottom: #ccc 1px solid;
+	margin-bottom: 20px;
+	color: #fff;
+	background: url("img/jumbotron.jpg") no-repeat top ;
+	
+}
+.jumbotron h2{
+
+	font-size: 40px;
+}
+.jumbotron p{
+
+	margin-top: 40px;
+	font-size: 20px;
+}
+.boxes{
+
+	text-align: center;
+	background-color: #fff;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.box .fas{
+
+	font-size: 45px !important;
+	margin-bottom: 10px;
+}
+.box{
+
+	padding: 15px;
+	border: #ccc 1px solid;
+}
+.page-title{
+
+	display:none;
+}
+.wpmenucartli{
+
+	padding-top: 8px;
+
+}
+
+.wpmenucart-contents{
+
+	color: #fff;
+	margin-left: 50px;
+	margin-top: 20px;
+	
+}
+.woocommerce ul.products{
+
+	padding: 50px 100px!important;
+}
+.woocommerce ul.products-column-4{
+
+	padding: 40px 100px !important;
+
+}
+.woocommerce-result-count{
+
+	font-size: 40px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+
+	background-color: #4183D7;
+	color: #fff;
+}
+span.woocommerce-Price-amount{
+font-size: 30px;
+
+}

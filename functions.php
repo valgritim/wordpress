@@ -18,9 +18,11 @@ require_once('class-wp-bootstrap-navwalker.php');
 function wpb_theme_setup(){
 
 	register_nav_menus( array(
-	'primary' => __( 'Primary Menu', 'wpbootstrap' ),
+	'primary' => 'wpbootstrap'
 	));
 }
+add_action('after_setup_theme', 'wpb_theme_setup');
+
 add_theme_support('woocommerce');
 
 function wpbootstrap_widgets_init() {

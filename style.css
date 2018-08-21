@@ -4,7 +4,7 @@ Theme URI: https://valeriebaron.website
 Author: ValDeMand'
 Author URI: https://valeriebaron.website
 Description: Responsive bootstrap theme design for e-commerce website
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: valeriebaron
@@ -95,4 +95,36 @@ body {
 span.woocommerce-Price-amount{
 font-size: 30px;
 
+}
+.woocommerce-account .woocommerce-MyAccount-navigation{
+
+	width: 100%;
+}
+.woocommerce-MyAccount-navigation>ul{
+
+	list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding: 0;
+  padding-bottom: 5px;
+  border-bottom:1px solid black;
+  position: relative;
+  left: -170px;
+
+}
+.woocommerce-MyAccount-navigation li{
+
+	width: 140px;
+	text-align: center;
+	margin-right: 20px;
+
+}
+.woocommerce-account .woocommerce-MyAccount-content{
+
+	width: 100%;
+}
+#text{
+
+	display: none;
 }
